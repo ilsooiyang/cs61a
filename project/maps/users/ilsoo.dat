@@ -1,0 +1,11 @@
+make_user(
+    'Il Soo Yang',
+    [
+        # Northside restaurants
+        make_review('Aki Japanese Restaurant', 4.0),
+        make_review('Berkeley Floor Cafe', 3.5),
+        make_review('Momo Masala', 4.5),
+        make_review("Blondie's Pizza", 1.0),
+        make_review('Camille', 3.5),
+    ]
+)
